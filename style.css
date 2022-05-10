@@ -1,0 +1,188 @@
+body {
+    background-color: lavender;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; 
+}
+.heading-name {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+.pl {
+    margin-left: 20px;
+}
+a,  
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.wrapper {
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    height: 100vh;
+    background: #ffff;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+i {
+    padding-right: 15px;
+}
+.fa-info {
+    margin-left: 6px;
+    font-size: 23px;
+}
+.fa-home, .fa-code, .fa-phone {
+    font-size: 22px;
+}
+#sidebar ul li {
+    box-shadow: 0 1px 0 0 lavender;
+    display: block;
+    font-size: 1em;
+    padding: 10px;
+}
+#sidebar ul p {
+    padding: 10px;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+}
+a[data-toggle="collapse"]{
+    position: relative;
+}
+
+ul li a {
+    font-size: 0.9em !important;
+    padding-left: 10px !important;
+}
+#content {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.3s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-cover {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.intro-pic {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.col-md-12 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lavender;
+    height: auto;
+}
+.my_info {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: left;
+}
+.fa-question {
+   
+    height: 25px;
+}
+.my_skills {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
+.s {
+    background-color: #0000;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.col-md-5 {
+    border-radius: 10px;
+    border: 1px solid lavender;
+    height: auto;
+  
+}
+.fa-database, .fa-code {
+    float: left;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.skills-list {
+    font-size: 1.15em;
+}
+.letter-design {
+    font-size: 2.5em;
+    color: #35f397;
+    font-weight: bolder;
+}
+.project-title {
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.text-muted {
+    font-size: 0.75em;
+}
+.project-info {
+    text-align: left;
+    margin-left: 5px;
+}
+.project-image {
+  width: 40vh;
+  height: 40vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+@media (max-width: 768px){
+    #sidebar {
+        margin-left: -200px;
+        width: 100%;
+    }
+    #sidebar.active {
+        margin-left: 0;
+        width: 100%;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+    .ml-auto {
+        float: right;
+    }
+    .col-md-12 {
+        height: auto;
+    }
+  
+}
